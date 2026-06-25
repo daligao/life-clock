@@ -1,68 +1,73 @@
-# Life Clock — Black Holes, Density & Time Illusions
+# Life Clock — Black Hole Months, Felt Time & Life Density Calculator (Free Browser Tool)
 
 **[🔴 Live Demo → ordinarymantrying.com/tools/life-clock/](https://ordinarymantrying.com/tools/life-clock/)**  
 **[▶ Open on GitHub Pages →](https://daligao.github.io/life-clock/)**
 
-![Life Clock — Hero](screenshot-1.png)
+![Life Clock — life density and black hole months visualization tool](screenshot-1.png)
 
-> 900 months. 75 years. But how many did you actually live?
+A free life analytics tool that goes beyond calendar time. Enter your birth month. Discover what percentage of your life has been a 🕳️ **Black Hole** — months so routine they left no memory — and get your **Life Density score**.
+
+**No sign-up. No install. Works in any browser.**
 
 ---
 
-## The Core Question
+## The Question Most Life Tools Don't Ask
 
-Most life-visualization tools show you calendar time. This one asks something harder:
+Most "your life in weeks" tools show you *clock time* — how many weeks have passed, how many remain.
 
-**What percentage of your life is a 🕳️ Black Hole** — months so routine, so repetitive, that they left no distinct memory at all?
+This tool asks something harder: **how many of those months did you actually live?**
 
-![Life Clock — Dashboard](screenshot-2.png)
+> "The first 18 years felt like forever. The last 10 years disappeared. Same number of months — completely different felt length."
+
+That gap between clock time and felt time is what this tool measures.
+
+![Life Clock — dashboard showing Life Density Index and Golden Months](screenshot-2.png)
 
 ---
 
 ## Features
 
-**🕳️ Black Holes**  
-Calculate your "Forgotten Months" percentage. The stretches of life that passed without leaving a mark.
+**🕳️ Black Hole Calculator**  
+What % of your life has been forgotten months — stretches so routine, so repetitive, that they left no distinct memory? Enter your pattern, get your Black Hole percentage.
 
-**🧠 Objective vs Subjective Time**  
-Toggle between clock time (1 square = 1 month) and felt time. Childhood feels longer because every month was new — the grid reshapes to show this.
+**🧠 Clock Time vs Felt Time Toggle**  
+Switch between objective time (1 square = 1 month) and subjective felt time. Childhood looks longer because every month was genuinely new. The grid reshapes to show this mathematically.
 
 **📊 Life Density Index**  
-A score for how "lived" your life has been — based on milestone density and memory distinctiveness.
+A 0–100 score for how "lived" your life has been — calculated from milestone density, memory distinctiveness, and novel-experience ratio.
 
 **💛 Golden Months with Parents**  
-Enter your parents' ages. See exactly how many months of real overlap you have left.
+Enter your parents' current ages. See exactly how many months of meaningful overlap you likely have left — the number most people have never calculated.
 
-**📌 Life Milestones with Confidence Ranges**  
-Pin future events (graduation, marriage, retirement) with a certainty slider. See them appear on your grid as probability clouds.
+**📌 Future Milestones with Confidence Ranges**  
+Pin upcoming events (graduation, career change, retirement) with a certainty slider. They appear on your grid as probability clouds, not fixed points.
 
 ---
 
-## How It Differs from the Other Tools
+## How It Differs From Similar Tools
 
 | Tool | Focus |
 |---|---|
+| Tim Urban's "Your Life in Weeks" | Calendar time, static image |
 | [life-paper](https://github.com/daligao/life-paper) | Famous lives archive — no personal data, 7 lenses |
-| [life-a4](https://github.com/daligao/life-a4) | Personal grid — wishes, longevity habits |
-| **life-clock** | Personal analytics — black holes, density, felt time |
-
----
-
-## Why It Exists
-
-Built as part of [Ordinary Man Trying](https://ordinarymantrying.com/) — a public experiment in building a blog + tool suite using AI.
-
-[Read the story →](https://ordinarymantrying.com/building-in-public-experiment/)
+| [life-a4](https://ordinarymantrying.com/tools/life-a4/) | Personal grid — wishes, longevity habits |
+| **life-clock (this tool)** | Personal analytics — black holes, felt time, Life Density score |
 
 ---
 
 ## Technical
 
 - Single HTML file — no dependencies, no build step
-- `html2canvas` for paper export (CDN, deferred)
-- Subjective time mode: variable row heights via JS
-- Life Density Index calculated from milestone + memory data
+- Subjective time mode: variable row heights calculated in JS
+- Life Density Index: composite score from milestone + memory data
+- `localStorage` for all session state
 
 ---
 
-*Part of the [Free Tools](https://ordinarymantrying.com/tools/) collection.*
+## Part of the Life Trilogy
+
+All three tools share the same 900-square grid metaphor — different angles on the same question.
+
+→ [life-paper](https://ordinarymantrying.com/tools/life-paper/) · [life-a4](https://ordinarymantrying.com/tools/life-a4/) · [life-clock](https://ordinarymantrying.com/tools/life-clock/)
+
+*Built as part of [Ordinary Man Trying](https://ordinarymantrying.com/) — a public experiment in building a blog and tool suite using AI, with zero prior tech background.*
