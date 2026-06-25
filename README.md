@@ -71,3 +71,11 @@ All three tools share the same 900-square grid metaphor — different angles on 
 → [life-paper](https://ordinarymantrying.com/tools/life-paper/) · [life-a4](https://ordinarymantrying.com/tools/life-a4/) · [life-clock](https://ordinarymantrying.com/tools/life-clock/)
 
 *Built as part of [Ordinary Man Trying](https://ordinarymantrying.com/) — a public experiment in building a blog and tool suite using AI, with zero prior tech background.*
+
+---
+
+## Transparency
+
+Built by a non-technical Chinese parent using AI as a development partner — zero coding background. The questions this tool asks (what % of your life is a black hole? how many golden months with your parents?), the Life Density concept, the felt-time toggle — all human ideas. The AI wrote the code.
+
+The companion blog post was drafted by AI based on my notes, and is [labeled as such](https://ordinarymantrying.com/life-density-score-black-hole-months-felt-time/). Building in public means being honest about the process. This is the process.
